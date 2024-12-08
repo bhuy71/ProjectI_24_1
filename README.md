@@ -1,9 +1,16 @@
 "# ProjectI_20241" 
+
 *)PHẦN I: GITHUB
-  -Đây là respository để lưu trữ các file code trên hệ thống hustack. Các file được push lên github theo workflow như sau :
-  +)Tôi sẽ tạo 8 branch tương ứng với 8 tuần (Week1,Week2,..Week8) , trong mỗi branch tôi tạo những folder tương ứng để chứa file code (week1,week2,..,week8)
-  +)File code trong mỗi một tuần sẽ được đẩy lên branch tương ứng(ví dụ file arr_queries.cpp là bài tập của tuần 1 , sẽ được push lên folder week1 ở trong branch Week1)
-  +)Sau khi đã push file code của một tuần lên branch tương ứng , tôi sẽ merge branch đó vào branch master(default branch)
+  -Đây là respository để lưu trữ các file code trên hệ thống hustack.
+  Các file được push lên github theo workflow như sau :
+  
+  +)Tôi sẽ tạo 8 branch tương ứng với 8 tuần (Week1,Week2,..Week8) , trong mỗi branch
+  tôi tạo những folder tương ứng để chứa file code (week1,week2,..,week8)
+  
+  +)File code trong mỗi một tuần sẽ được đẩy lên branch tương ứng(ví dụ file arr_queries.cpp
+  là bài tập của tuần 1 , sẽ được push lên folder week1 ở trong branch Week1)
+  +)Sau khi đã push file code của một tuần lên branch tương ứng , tôi sẽ merge branch đó vào
+  branch master(default branch)
   -Tìm hiểu về cherry-pick:
   +)Khái niệm về git cherry-pick:
 
