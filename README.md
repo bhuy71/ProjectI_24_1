@@ -15,6 +15,7 @@
   branch master(default branch)
   
   -Tìm hiểu về cherry-pick:
+  
   +)Khái niệm về git cherry-pick:
 
   git cherry-pick là một lệnh trong Git được sử dụng để áp dụng một hoặc nhiều commit từ một branch này sang branch khác mà không cần phải merge toàn bộ branch.
