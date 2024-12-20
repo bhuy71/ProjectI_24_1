@@ -22,9 +22,10 @@
   
   +)Khi nào sử dụng git cherry-pick
   
-  	•	Khi bạn muốn lấy một số thay đổi cụ thể từ một branch (hoặc commit) mà không cần lấy tất cả các commit hoặc thay đổi từ branch đó.
-  	•	Thường được dùng trong trường hợp bạn cần sửa lỗi (bug fix) hoặc áp dụng một tính năng cụ thể từ branch khác vào branch hiện tại.
-  
+•	Khi bạn muốn lấy một số thay đổi cụ thể từ một branch (hoặc commit) mà không cần lấy tất cả các commit hoặc thay đổi từ branch đó.
+
+•	Thường được dùng trong trường hợp bạn cần sửa lỗi (bug fix) hoặc áp dụng một tính năng cụ thể từ branch khác vào branch hiện tại.
+
   +)Cách hoạt động của git cherry-pick
   
   Lệnh git cherry-pick lấy nội dung của một commit cụ thể từ branch khác và tạo một commit mới với nội dung đó trên branch hiện tại.
