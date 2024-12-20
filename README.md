@@ -37,7 +37,7 @@
   
   git cherry-pick <commit-hash>
   
-  	•	Ví dụ:
+•	Ví dụ:
   Giả sử bạn đang ở branch main và muốn lấy commit 123abcd từ branch feature:
   git checkout main
   git cherry-pick 123abcd
@@ -52,7 +52,7 @@
   git cherry-pick <start-commit>..<end-commit>
   
   
-  	•	Ví dụ:
+•	Ví dụ:
   Nếu bạn muốn lấy tất cả các commit từ 123abcd đến 789efgh:
   
   git cherry-pick 123abcd..789efgh
@@ -68,37 +68,37 @@
   4. Hủy bỏ cherry-pick (nếu có lỗi)
   
   Nếu bạn cherry-pick nhưng có lỗi hoặc muốn hủy bỏ, bạn có thể:
-  	•	Hủy cherry-pick đang thực hiện:
+  •	Hủy cherry-pick đang thực hiện:
   
   git cherry-pick --abort
   
   
-  	•	Hủy commit cherry-pick đã áp dụng:
+  •	Hủy commit cherry-pick đã áp dụng:
   
   git reset --hard HEAD~1
   
   +)Ưu điểm của git cherry-pick
   
-  	•	Linh hoạt: Cho phép áp dụng các commit cụ thể mà không cần merge toàn bộ branch.
-  	•	Kiểm soát tốt hơn: Giúp bạn chọn lọc thay đổi mà bạn thực sự cần.
+  •	Linh hoạt: Cho phép áp dụng các commit cụ thể mà không cần merge toàn bộ branch.
+  •	Kiểm soát tốt hơn: Giúp bạn chọn lọc thay đổi mà bạn thực sự cần.
   
  +)Hạn chế của git cherry-pick
   
-  	•	Có thể làm phức tạp lịch sử Git nếu sử dụng quá nhiều.
-  	•	Không nên sử dụng thường xuyên trong các dự án lớn với nhiều người vì có thể dẫn đến xung đột hoặc commit trùng lặp.
+  •	Có thể làm phức tạp lịch sử Git nếu sử dụng quá nhiều.
+  •	Không nên sử dụng thường xuyên trong các dự án lớn với nhiều người vì có thể dẫn đến xung đột hoặc commit trùng lặp.
   
   +)Ví dụ thực tế
   
-  	•	Sửa lỗi (bug fix): Lấy commit sửa lỗi từ branch develop và áp dụng vào branch hotfix.
-  	•	Cập nhật tính năng: Lấy commit từ branch feature để tích hợp một tính năng vào branch main.
+  •	Sửa lỗi (bug fix): Lấy commit sửa lỗi từ branch develop và áp dụng vào branch hotfix.
+  •	Cập nhật tính năng: Lấy commit từ branch feature để tích hợp một tính năng vào branch main.
   -)Tìm hiểu về Release trong Github:
     Tính năng Release trên GitHub cho phép bạn đóng gói và phân phối các phiên bản cụ thể của dự án đến người dùng. Mỗi bản phát hành (release) thường đi kèm với các thông tin như ghi chú phát hành, tài sản đính kèm (như tệp nhị phân hoặc tài liệu), và liên     kết đến mã nguồn tại thời điểm phát hành.
   
   +Mục đích của Release trên GitHub
   
-  	•	Đánh dấu phiên bản ổn định: Giúp người dùng dễ dàng truy cập và sử dụng phiên bản ổn định của dự án.
-  	•	Cung cấp thông tin chi tiết: Ghi chú phát hành cung cấp thông tin về các tính năng mới, sửa lỗi và cải tiến trong phiên bản đó.
-  	•	Phân phối tệp đính kèm: Cho phép đính kèm các tệp như tệp cài đặt, tài liệu hướng dẫn hoặc các tài nguyên liên quan khác.
+  •	Đánh dấu phiên bản ổn định: Giúp người dùng dễ dàng truy cập và sử dụng phiên bản ổn định của dự án.
+  •	Cung cấp thông tin chi tiết: Ghi chú phát hành cung cấp thông tin về các tính năng mới, sửa lỗi và cải tiến trong phiên bản đó.
+  •	Phân phối tệp đính kèm: Cho phép đính kèm các tệp như tệp cài đặt, tài liệu hướng dẫn hoặc các tài nguyên liên quan khác.
   
   +Cách tạo Release trên GitHub
   
