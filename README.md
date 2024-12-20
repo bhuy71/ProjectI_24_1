@@ -133,17 +133,17 @@
     +)Cách tạo và triển khai trang web với GitHub Pages
     
     1.	Tạo một kho lưu trữ mới trên GitHub:
-    •	Đăng nhập vào tài khoản GitHub của bạn.
-    •	Nhấp vào nút “New” để tạo repository mới.
-    •	Đặt tên cho repository theo định dạng username.github.io (thay username bằng tên người dùng GitHub của bạn).
+•	Đăng nhập vào tài khoản GitHub của bạn.
+•	Nhấp vào nút “New” để tạo repository mới.
+•	Đặt tên cho repository theo định dạng username.github.io (thay username bằng tên người dùng GitHub của bạn).
     2.	Thêm nội dung cho trang web:
-    •	Clone repository về máy tính của bạn:
+•	Clone repository về máy tính của bạn:
   
   git clone https://github.com/username/username.github.io
   
-  
-    •	Thêm các tệp HTML, CSS, JavaScript hoặc sử dụng Jekyll để tạo nội dung.
-    •	Commit và push các thay đổi lên GitHub:
+
+•	Thêm các tệp HTML, CSS, JavaScript hoặc sử dụng Jekyll để tạo nội dung.
+•	Commit và push các thay đổi lên GitHub:
   
   git add .
   git commit -m "Initial commit"
@@ -151,17 +151,17 @@
   
   
     3.	Cấu hình GitHub Pages:
-    •	Truy cập vào phần “Settings” của repository.
-    •	Cuộn xuống phần “GitHub Pages”.
-    •	Trong mục “Source”, chọn nhánh (main hoặc gh-pages) và thư mục gốc (/root) để triển khai trang web.
-    •	Nhấp vào “Save” để lưu cấu hình.
+•	Truy cập vào phần “Settings” của repository.
+•	Cuộn xuống phần “GitHub Pages”.
+•	Trong mục “Source”, chọn nhánh (main hoặc gh-pages) và thư mục gốc (/root) để triển khai trang web.
+•	Nhấp vào “Save” để lưu cấu hình.
     4.	Truy cập trang web:
-    •	Sau khi cấu hình, trang web của bạn sẽ được xuất bản tại địa chỉ https://username.github.io.
+•	Sau khi cấu hình, trang web của bạn sẽ được xuất bản tại địa chỉ https://username.github.io.
   
   +)Tùy chỉnh nâng cao
-  
-    •	Sử dụng tên miền tùy chỉnh: Bạn có thể cấu hình để sử dụng tên miền riêng bằng cách thêm tệp CNAME chứa tên miền vào repository và cấu hình DNS trỏ về GitHub Pages.
-    •	Bảo mật với HTTPS: GitHub Pages hỗ trợ HTTPS, giúp bảo mật kết nối cho trang web của bạn.
+
+•	Sử dụng tên miền tùy chỉnh: Bạn có thể cấu hình để sử dụng tên miền riêng bằng cách thêm tệp CNAME chứa tên miền vào repository và cấu hình DNS trỏ về GitHub Pages.
+•	Bảo mật với HTTPS: GitHub Pages hỗ trợ HTTPS, giúp bảo mật kết nối cho trang web của bạn.
 
 
     
