@@ -161,7 +161,7 @@
     
     	•	Sử dụng tên miền tùy chỉnh: Bạn có thể cấu hình để sử dụng tên miền riêng bằng cách thêm tệp CNAME chứa tên miền vào repository và cấu hình DNS trỏ về GitHub Pages.
     	•	Bảo mật với HTTPS: GitHub Pages hỗ trợ HTTPS, giúp bảo mật kết nối cho trang web của bạn.
-*)PHẦN II: TẠO CHATBOT VỚI POE.COM
+
 
     
           
