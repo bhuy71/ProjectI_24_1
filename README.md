@@ -102,66 +102,66 @@
   
   +Cách tạo Release trên GitHub
   
-  	1.	Truy cập repository của bạn trên GitHub.
-  	2.	Chọn tab “Releases” ở phía trên của trang repository.
-  	3.	Nhấp vào “Draft a new release”.
-  	4.	Điền thông tin:
-  	•	Tag version: Đặt tên phiên bản (ví dụ: v1.0.0).
-  	•	Target branch: Chọn nhánh chứa mã nguồn cho phiên bản này.
-  	•	Release title: Tiêu đề cho bản phát hành.
-  	•	Release description: Ghi chú chi tiết về các thay đổi, tính năng mới hoặc sửa lỗi.
-  	5.	Đính kèm tệp (nếu cần): Kéo và thả các tệp vào khu vực đính kèm để bổ sung tài nguyên cho bản phát hành.
-  	6.	Chọn “This is a pre-release” nếu đây là phiên bản thử nghiệm chưa ổn định.
-  	7.	Nhấp vào “Publish release” để công bố bản phát hành.
+  1.	Truy cập repository của bạn trên GitHub.
+  2.	Chọn tab “Releases” ở phía trên của trang repository.
+  3.	Nhấp vào “Draft a new release”.
+  4.	Điền thông tin:
+  •	Tag version: Đặt tên phiên bản (ví dụ: v1.0.0).
+  •	Target branch: Chọn nhánh chứa mã nguồn cho phiên bản này.
+  •	Release title: Tiêu đề cho bản phát hành.
+  •	Release description: Ghi chú chi tiết về các thay đổi, tính năng mới hoặc sửa lỗi.
+  5.	Đính kèm tệp (nếu cần): Kéo và thả các tệp vào khu vực đính kèm để bổ sung tài nguyên cho bản phát hành.
+  6.	Chọn “This is a pre-release” nếu đây là phiên bản thử nghiệm chưa ổn định.
+  7.	Nhấp vào “Publish release” để công bố bản phát hành.
   
   Lưu ý: Chỉ những người có quyền push lên repository mới có thể tạo release. ￼
   
   +Lợi ích của việc sử dụng Release trên GitHub
   
-  	•	Quản lý phiên bản hiệu quả: Dễ dàng theo dõi và quản lý các phiên bản khác nhau của dự án.
-  	•	Cung cấp thông tin rõ ràng: Người dùng và cộng tác viên có thể nhanh chóng nắm bắt các thay đổi và cập nhật trong từng phiên bản.
-  	•	Phân phối tài nguyên thuận tiện: Cho phép người dùng tải về các tệp liên quan trực tiếp từ trang release.
+  •	Quản lý phiên bản hiệu quả: Dễ dàng theo dõi và quản lý các phiên bản khác nhau của dự án.
+  •	Cung cấp thông tin rõ ràng: Người dùng và cộng tác viên có thể nhanh chóng nắm bắt các thay đổi và cập nhật trong từng phiên bản.
+  •	Phân phối tài nguyên thuận tiện: Cho phép người dùng tải về các tệp liên quan trực tiếp từ trang release.
   -)Tính năng về Page trong Github:
     GitHub Pages là một dịch vụ miễn phí do GitHub cung cấp, cho phép bạn lưu trữ và xuất bản các trang web tĩnh trực tiếp từ kho lưu trữ (repository) trên GitHub. Dịch vụ này thường được sử dụng để tạo trang cá nhân, blog, tài liệu dự án hoặc trang giới        thiệu cho các dự án mã nguồn mở.
     
     +)Lợi ích của GitHub Pages
     
-    	•	Miễn phí và dễ sử dụng: Bạn có thể triển khai trang web mà không cần chi phí lưu trữ hoặc tên miền.
-    	•	Tích hợp với GitHub: Dễ dàng quản lý và cập nhật nội dung thông qua hệ thống kiểm soát phiên bản của Git.
-    	•	Hỗ trợ Jekyll: Cho phép sử dụng Jekyll để tạo và quản lý trang web tĩnh một cách hiệu quả.
-    
+  •	Miễn phí và dễ sử dụng: Bạn có thể triển khai trang web mà không cần chi phí lưu trữ hoặc tên miền.
+  •	Tích hợp với GitHub: Dễ dàng quản lý và cập nhật nội dung thông qua hệ thống kiểm soát phiên bản của Git.
+  •	Hỗ trợ Jekyll: Cho phép sử dụng Jekyll để tạo và quản lý trang web tĩnh một cách hiệu quả.
+  
     +)Cách tạo và triển khai trang web với GitHub Pages
     
-    	1.	Tạo một kho lưu trữ mới trên GitHub:
-    	•	Đăng nhập vào tài khoản GitHub của bạn.
-    	•	Nhấp vào nút “New” để tạo repository mới.
-    	•	Đặt tên cho repository theo định dạng username.github.io (thay username bằng tên người dùng GitHub của bạn).
-    	2.	Thêm nội dung cho trang web:
-    	•	Clone repository về máy tính của bạn:
-    
-    git clone https://github.com/username/username.github.io
-    
-    
-    	•	Thêm các tệp HTML, CSS, JavaScript hoặc sử dụng Jekyll để tạo nội dung.
-    	•	Commit và push các thay đổi lên GitHub:
-    
-    git add .
-    git commit -m "Initial commit"
-    git push origin main
-    
-    
-    	3.	Cấu hình GitHub Pages:
-    	•	Truy cập vào phần “Settings” của repository.
-    	•	Cuộn xuống phần “GitHub Pages”.
-    	•	Trong mục “Source”, chọn nhánh (main hoặc gh-pages) và thư mục gốc (/root) để triển khai trang web.
-    	•	Nhấp vào “Save” để lưu cấu hình.
-    	4.	Truy cập trang web:
-    	•	Sau khi cấu hình, trang web của bạn sẽ được xuất bản tại địa chỉ https://username.github.io.
-    
-    +)Tùy chỉnh nâng cao
-    
-    	•	Sử dụng tên miền tùy chỉnh: Bạn có thể cấu hình để sử dụng tên miền riêng bằng cách thêm tệp CNAME chứa tên miền vào repository và cấu hình DNS trỏ về GitHub Pages.
-    	•	Bảo mật với HTTPS: GitHub Pages hỗ trợ HTTPS, giúp bảo mật kết nối cho trang web của bạn.
+    1.	Tạo một kho lưu trữ mới trên GitHub:
+    •	Đăng nhập vào tài khoản GitHub của bạn.
+    •	Nhấp vào nút “New” để tạo repository mới.
+    •	Đặt tên cho repository theo định dạng username.github.io (thay username bằng tên người dùng GitHub của bạn).
+    2.	Thêm nội dung cho trang web:
+    •	Clone repository về máy tính của bạn:
+  
+  git clone https://github.com/username/username.github.io
+  
+  
+    •	Thêm các tệp HTML, CSS, JavaScript hoặc sử dụng Jekyll để tạo nội dung.
+    •	Commit và push các thay đổi lên GitHub:
+  
+  git add .
+  git commit -m "Initial commit"
+  git push origin main
+  
+  
+    3.	Cấu hình GitHub Pages:
+    •	Truy cập vào phần “Settings” của repository.
+    •	Cuộn xuống phần “GitHub Pages”.
+    •	Trong mục “Source”, chọn nhánh (main hoặc gh-pages) và thư mục gốc (/root) để triển khai trang web.
+    •	Nhấp vào “Save” để lưu cấu hình.
+    4.	Truy cập trang web:
+    •	Sau khi cấu hình, trang web của bạn sẽ được xuất bản tại địa chỉ https://username.github.io.
+  
+  +)Tùy chỉnh nâng cao
+  
+    •	Sử dụng tên miền tùy chỉnh: Bạn có thể cấu hình để sử dụng tên miền riêng bằng cách thêm tệp CNAME chứa tên miền vào repository và cấu hình DNS trỏ về GitHub Pages.
+    •	Bảo mật với HTTPS: GitHub Pages hỗ trợ HTTPS, giúp bảo mật kết nối cho trang web của bạn.
 
 
     
