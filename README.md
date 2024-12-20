@@ -130,7 +130,7 @@
   •	Tích hợp với GitHub: Dễ dàng quản lý và cập nhật nội dung thông qua hệ thống kiểm soát phiên bản của Git.
   •	Hỗ trợ Jekyll: Cho phép sử dụng Jekyll để tạo và quản lý trang web tĩnh một cách hiệu quả.
   
-    +)Cách tạo và triển khai trang web với GitHub Pages
++)Cách tạo và triển khai trang web với GitHub Pages
     
 1.	Tạo một kho lưu trữ mới trên GitHub:
 •	Đăng nhập vào tài khoản GitHub của bạn.
