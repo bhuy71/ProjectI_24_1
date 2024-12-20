@@ -124,7 +124,7 @@
   -)Tính năng về Page trong Github:
     GitHub Pages là một dịch vụ miễn phí do GitHub cung cấp, cho phép bạn lưu trữ và xuất bản các trang web tĩnh trực tiếp từ kho lưu trữ (repository) trên GitHub. Dịch vụ này thường được sử dụng để tạo trang cá nhân, blog, tài liệu dự án hoặc trang giới        thiệu cho các dự án mã nguồn mở.
     
-    +)Lợi ích của GitHub Pages
++)Lợi ích của GitHub Pages
     
   •	Miễn phí và dễ sử dụng: Bạn có thể triển khai trang web mà không cần chi phí lưu trữ hoặc tên miền.
   •	Tích hợp với GitHub: Dễ dàng quản lý và cập nhật nội dung thông qua hệ thống kiểm soát phiên bản của Git.
@@ -132,11 +132,11 @@
   
     +)Cách tạo và triển khai trang web với GitHub Pages
     
-    1.	Tạo một kho lưu trữ mới trên GitHub:
+1.	Tạo một kho lưu trữ mới trên GitHub:
 •	Đăng nhập vào tài khoản GitHub của bạn.
 •	Nhấp vào nút “New” để tạo repository mới.
 •	Đặt tên cho repository theo định dạng username.github.io (thay username bằng tên người dùng GitHub của bạn).
-    2.	Thêm nội dung cho trang web:
+2.	Thêm nội dung cho trang web:
 •	Clone repository về máy tính của bạn:
   
   git clone https://github.com/username/username.github.io
@@ -150,12 +150,12 @@
   git push origin main
   
   
-    3.	Cấu hình GitHub Pages:
+3.	Cấu hình GitHub Pages:
 •	Truy cập vào phần “Settings” của repository.
 •	Cuộn xuống phần “GitHub Pages”.
 •	Trong mục “Source”, chọn nhánh (main hoặc gh-pages) và thư mục gốc (/root) để triển khai trang web.
 •	Nhấp vào “Save” để lưu cấu hình.
-    4.	Truy cập trang web:
+4.	Truy cập trang web:
 •	Sau khi cấu hình, trang web của bạn sẽ được xuất bản tại địa chỉ https://username.github.io.
   
   +)Tùy chỉnh nâng cao
